@@ -69,6 +69,7 @@ h3{font:700 1.15rem/1.3 var(--display);margin:0 0 8px}
 .bento{display:grid;gap:16px;grid-template-columns:1fr}
 @media(min-width:760px){.bento{grid-template-columns:repeat(6,1fr)}.s4{grid-column:span 4}.s2{grid-column:span 2}.s3{grid-column:span 3}}
 .stat{font:800 2.6rem/1 var(--display);margin-bottom:6px}
+.avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;float:right;margin:0 0 12px 16px;border:3px solid var(--line)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
 .chips li{padding:6px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);font-size:.92rem;font-weight:500}
 .grid3{display:grid;gap:16px;grid-template-columns:1fr}
@@ -127,7 +128,7 @@ footer{padding:32px 0;color:var(--muted);font-size:.9rem;text-align:center}
 <section id="about"><div class="wrap">
   <h2>About me</h2>
   <div class="bento">
-    <div class="card s4"><h3>Background</h3>
+    <div class="card s4"><img class="avatar" src="photo.jpg" alt="Photo of Bommidi Keerthana" width="120" height="120"><h3>Background</h3>
       <p>I'm an Information Technology graduate from MVSR Engineering College, passionate about data engineering, test automation, and building technology-driven solutions. Since September 2024, I've been working at Accenture, contributing to ETL workflows for Bank of America using Informatica PowerCenter, Teradata, and Unix, with a focus on data validation, workflow reliability, and data quality across enterprise systems.</p>
       <p>Previously, at Besquare Technologies, I developed a Bluetooth-connected mobile application using Flutter, gaining hands-on experience in mobile development and device communication. As a Data Science Intern at PHN Technology, I built a Random Forest machine learning model, strengthening my skills in Python and predictive analytics. I enjoy solving complex technical challenges, exploring automation opportunities, and continuously expanding my expertise across data engineering, software development, and machine learning.</p></div>
     <div class="card s2"><div class="stat grad">8.61</div><h3>CPI</h3><p>B.Tech, Information Technology, 2024</p></div>
